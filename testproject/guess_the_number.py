@@ -40,6 +40,7 @@ try:
     restart()
     time.sleep(3)
 
+    # Range -19-1
     def tc002():
         x = -19
         while x < 1:
@@ -54,6 +55,7 @@ try:
     restart()
     time.sleep(3)
 
+    # Range 255-100
     def tc003():
         x = 255
         while x > 100:
